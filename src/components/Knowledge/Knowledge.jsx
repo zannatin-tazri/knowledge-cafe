@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Knowledge = (props) => {
+    console.log(props)
     const {name,picture,id,readTime,author_img,blog_title}=props.information;
+    const handleSpeantTimeRead=props.handleSpeantTimeRead;
+
     return (
         <div className='info-container'>
             <div className='image'>
@@ -31,7 +34,7 @@ const Knowledge = (props) => {
         <h3 className='blog-title'>{blog_title}
         </h3>
         <small className='hashtag'>#beginners #programming</small><br />
-        <a href=""><u>Mark as read</u> </a>
+        <small onClick={()=>handleSpeantTimeRead(props.information)} className='mark-as-read'><u>Mark as read</u> </small>
         </div>
         
         
