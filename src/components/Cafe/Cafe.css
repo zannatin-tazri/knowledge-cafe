@@ -1,4 +1,18 @@
 .cafe-container{
+    margin: 10px 50px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+.bookmarked-blog-time{
+    margin-top: 35px;
+    border: 2px solid violet;
+    padding: 10px;
+    width: 185px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.bookmarked-blog{
+   margin-left: 5px;
 }

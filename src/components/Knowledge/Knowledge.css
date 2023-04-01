@@ -7,7 +7,39 @@
 .info-container{
     width: 680px;
     height: 500px;
-    margin: 80px;
+    margin: 30px;
     border: 1px solid gainsboro;
     border-radius: 20px;
+}
+
+.author-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.name{
+    margin-bottom: 0;
+}
+.publisher-info{
+    display:flex;
+    
+}
+.publish-info{
+    display: flex;
+    justify-content: space-between;
+}
+.read-time{
+    margin-right: 20px;
+}
+.blog-title{
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hashtag{
+    margin-left: 15px;
+}
+.info-container a{
+    margin-left: 18px;
+    
 }

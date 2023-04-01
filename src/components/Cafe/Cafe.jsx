@@ -20,10 +20,10 @@ const Cafe = () => {
                 ></Knowledge>)
               }
             </div>
-            <div className="bookmarked-blog">
-                <p>Speant time on read :</p>
+            <div >
+                <p className='bookmarked-blog-time'>Speant time on read :</p>
 
-                <h6>Bookmarked Blogs : 8</h6>
+                <h4 className="bookmarked-blog">Bookmarked Blogs : 8</h4>
             </div>
         </div>
     );
