@@ -16,3 +16,12 @@
 .bookmarked-blog{
    margin-left: 5px;
 }
+
+@media screen and (max-width:376px){
+   
+    .cafe-container{
+        margin: 10px 50px;
+        
+        gap: 50px;
+    }
+}

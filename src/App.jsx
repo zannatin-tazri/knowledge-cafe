@@ -8,12 +8,26 @@ import QuestionAnswer from './components/Question-Answer/QuestionAnswer'
 
 
 function App() {
+
+ const handleSpeantTimeRead=(time)=>{
+    const previousReadTime=JSON.stringify(localStorage.getItem("readTime"));
+  if(previousReadTime){
+    console.log(previousReadTime)
+  }
+  else{
+    localStorage.setItem("readTime",time);
+  }
+
+  }
+
+  
+  
   
 
   return (
     <div className="App">
       <Header></Header>
-      <Cafe></Cafe>
+      <Cafe handleSpeantTimeRead={handleSpeantTimeRead} ></Cafe>
       <QuestionAnswer></QuestionAnswer>
     </div>
   )

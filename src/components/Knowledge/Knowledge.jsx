@@ -3,10 +3,12 @@ import './Knowledge.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
+
 const Knowledge = (props) => {
     
     const {name,picture,id,readTime,author_img,blog_title}=props.information;
     const handleSpeantTimeRead=props.handleSpeantTimeRead;
+    const bookMark=props.bookMark;
 
     return (
         <div className='info-container'>
@@ -27,7 +29,7 @@ const Knowledge = (props) => {
             </div>
             <div className='read-time'>
                 <p>{readTime} min read
-                <button className='bookmark'><FontAwesomeIcon icon={faBookmark} /></button> </p>
+                <button onClick={()=>bookMark()} className='bookmark'><FontAwesomeIcon icon={faBookmark} /></button> </p>
             </div>
            </div>
         </div>
