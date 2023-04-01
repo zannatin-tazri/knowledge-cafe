@@ -1,0 +1,16 @@
+.nav-container{
+    
+    display: flex;
+    padding:10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-search{
+    background-color: navy;
+    color: white;
+}
+
+.btn-search:hover{
+   background-color: blueviolet;
+}

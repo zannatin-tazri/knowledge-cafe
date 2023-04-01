@@ -1,0 +1,44 @@
+[
+    {
+      "id": "6426fe0bfd6a50a31ec35be4",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 5,
+      "name": "Harriett Lang"
+    },
+    {
+      "id": "6426fe0bc083c04e9f092a5f",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 6,
+      "name": "Dawson Roberts"
+    },
+    {
+      "id": "6426fe0b732dd7bdaa4c2379",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 6,
+      "name": "Lisa Haynes"
+    },
+    {
+      "id": "6426fe0bc3588c767b58b153",
+      "picture": "https://imageio.forbes.com/blogs-images/cognitiveworld/files/2019/02/WomanCyborg-F-1200x801.jpg?format=jpg&width=960",
+      "readTime": 4,
+      "name": "Terry Kelly"
+    },
+    {
+      "id": "6426fe0baee51144c036f1bc",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 5,
+      "name": "Mccoy Langley"
+    },
+    {
+      "id": "6426fe0bfc0ac7f6d69f8b82",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 7,
+      "name": "Carolina Cotton"
+    },
+    {
+      "id": "6426fe0b95555df913fa87ad",
+      "picture": "http://placehold.it/32x32",
+      "readTime": 8,
+      "name": "Chambers Goodman"
+    }
+  ]
