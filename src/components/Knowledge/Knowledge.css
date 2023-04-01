@@ -1,0 +1,13 @@
+.image img{
+    width: 650px;
+    height: 300px;
+    margin: 14px;
+    border-radius: 10px;
+}
+.info-container{
+    width: 680px;
+    height: 500px;
+    margin: 80px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
